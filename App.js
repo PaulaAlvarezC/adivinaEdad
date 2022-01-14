@@ -6,18 +6,18 @@
  * @flow strict-local
  */
 
+import React, { useState} from 'react';
 import {
-  KeyboardAvoidingView,
-  SafeAreaView,
-  StyleSheet,
   View,
+  StyleSheet,
+  SafeAreaView,
+  KeyboardAvoidingView
 } from 'react-native';
-import React, { useState } from 'react';
 
-import GameOverScreen from './src/screens/gameover/index';
-import GameScreen from './src/screens/gamescreen/index';
 import GameStart from './src/screens/gamestart/index';
+import GameScreen from './src/screens/gamescreen/index';
 import Header from './src/components/molecules/header/index';
+import GameOverScreen from './src/screens/gameover/index';
 
 const App = () => {
   const [userNumber, setUserNumber] = useState('');
@@ -43,7 +43,7 @@ const App = () => {
 
   return (
     <SafeAreaView style={styles.container}>
-      <KeyboardAvoidingView behavior="padding" style={styles.container}>
+      <KeyboardAvoidingView behavior="height" style={styles.container}>
       <View style={styles.container}>
       <Header title="Adivina el número" />
         {content}
