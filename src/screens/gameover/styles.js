@@ -8,10 +8,11 @@ export const styles = StyleSheet.create({
         marginVertical: 10,
     },
     image: {
-        width: '70%',
+        marginVertical: 1,
+        width: '60%',
         height: 200,
     },
-    text: {
+    text: { 
         fontSize: 20,
         fontWeight: 'bold',
         color: '#212121',

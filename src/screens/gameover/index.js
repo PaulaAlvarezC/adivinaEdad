@@ -6,7 +6,7 @@ import { generateRandomNumber } from '../../utils/functions';
 import { styles } from './styles';
 import { theme } from '../../utils/constants/theme';
 
-const gameOverImage = require('../../../assets/images/gameover.jpg');
+const gameOverImage = require('../../../assets/images/pngegg.png');
 
 const GameOverScreen = (props) => {
     const { rounds, choice, onRestart } = props;
