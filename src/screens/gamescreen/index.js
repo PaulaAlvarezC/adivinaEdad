@@ -1,8 +1,9 @@
-import React, { useState, useRef, useEffect } from 'react';
-import { View, Text, Button, Alert } from 'react-native';
+import { Alert, Button, Text, View } from 'react-native';
+import React, { useEffect, useRef, useState } from 'react';
+
 import Numbers from '../../components/atoms/numbers';
-import { styles } from './styles';
 import { generateRandomNumber } from '../../utils/functions';
+import { styles } from './styles';
 import { theme } from '../../utils/constants/theme';
 
 const GameScreen = (props) => {
@@ -21,18 +22,22 @@ const GameScreen = (props) => {
             (direction === 'lower' && currentGuess < userOption) ||
             (direction === 'greater' && currentGuess > userOption)
         ) {
-            Alert.alert('No mientas', 'Tu sabes que no es verdad...!', [
-                { text: 'Disculpa', style: 'Cancelar' }
+            Alert.alert('No mientas', 'Estas haciendo trampa', [
+                { text: 'OK, no', style: 'Cancelar' }
             ])
         }
-
+        /*
         if(direction === 'lower') {
-            currentHigh.current = currentGuess;
+            //currentHigh.current = currentGuess;
+            console.warn("max: "+currentHigh.current+ " min: "+currentLow.current+ " current: "+currentGuess);
         } else {
-            currentLow.current = currentGuess;
+            //currentLow.current = currentGuess; 
+            console.warn("max: "+currentHigh.current+ " min: "+currentLow.current+ " current: "+currentGuess);
         }
-
-        const nextNumber = generateRandomNumber(currentLow.current, currentHigh.current, currentGuess);
+        */
+         
+         
+        const nextNumber = generateRandomNumber(currentLow.current, currentHigh.current, currentGuess); 
         setCurrentGuess(nextNumber);
         setRounds(current => current + 1);
     }

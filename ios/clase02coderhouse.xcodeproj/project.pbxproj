@@ -18,6 +18,8 @@
 		334E42E20CE14AC9B0456737 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2342F8B8B1345EA9C6A611A /* Lato-Bold.ttf */; };
 		8E9F2C3809E44BFDB17D8A0C /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 220534A6DDCA4BAD91CCD1BD /* Lato-Light.ttf */; };
 		45D999ECAF564909AB0DDB4B /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09BF769C01244B54B21EBBDE /* Lato-Regular.ttf */; };
+		840BDFC5F3FE44C6A548DC1D /* PressStart2P-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49667411E30B42138542BAE1 /* PressStart2P-Regular.ttf */; };
+		2864E2EBE3BE4AC4B09ECEFC /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F952A50008A4189AAF60D61 /* Pacifico-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		B2342F8B8B1345EA9C6A611A /* Lato-Bold.ttf */ = {isa = PBXFileReference; name = "Lato-Bold.ttf"; path = "../assets/fonts/Lato-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		220534A6DDCA4BAD91CCD1BD /* Lato-Light.ttf */ = {isa = PBXFileReference; name = "Lato-Light.ttf"; path = "../assets/fonts/Lato-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		09BF769C01244B54B21EBBDE /* Lato-Regular.ttf */ = {isa = PBXFileReference; name = "Lato-Regular.ttf"; path = "../assets/fonts/Lato-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		49667411E30B42138542BAE1 /* PressStart2P-Regular.ttf */ = {isa = PBXFileReference; name = "PressStart2P-Regular.ttf"; path = "../assets/fonts/PressStart2P-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5F952A50008A4189AAF60D61 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; name = "Pacifico-Regular.ttf"; path = "../assets/fonts/Pacifico-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +150,8 @@
 				B2342F8B8B1345EA9C6A611A /* Lato-Bold.ttf */,
 				220534A6DDCA4BAD91CCD1BD /* Lato-Light.ttf */,
 				09BF769C01244B54B21EBBDE /* Lato-Regular.ttf */,
+				49667411E30B42138542BAE1 /* PressStart2P-Regular.ttf */,
+				5F952A50008A4189AAF60D61 /* Pacifico-Regular.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -247,6 +253,8 @@
 				334E42E20CE14AC9B0456737 /* Lato-Bold.ttf in Resources */,
 				8E9F2C3809E44BFDB17D8A0C /* Lato-Light.ttf in Resources */,
 				45D999ECAF564909AB0DDB4B /* Lato-Regular.ttf in Resources */,
+				840BDFC5F3FE44C6A548DC1D /* PressStart2P-Regular.ttf in Resources */,
+				2864E2EBE3BE4AC4B09ECEFC /* Pacifico-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

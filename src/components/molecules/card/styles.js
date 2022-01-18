@@ -5,14 +5,24 @@ export const styles = StyleSheet.create({
     flexGrow: 0.25,
     justifyContent: "space-around",
     alignItems: 'center',
-    elevation: 2,
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84, 
+    elevation: 5,
     marginHorizontal: 30,
     marginVertical: 20,
-    backgroundColor: '#fafafa'
+    backgroundColor: '#fafafa',
+    borderRadius: 25,
   },
   text: {
-    fontSize: 18,
-    color: "#212121",
+    fontSize: 24,
+    color: "#FFF",
+    fontFamily: 'Lato-Regular',
+    
   },
   buttonContainer: {
     width: "100%",

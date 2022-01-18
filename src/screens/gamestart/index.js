@@ -1,12 +1,12 @@
+import { Button, Text, View } from 'react-native'
 import React, { useState } from 'react'
-import { View, Text, Button } from 'react-native'
-import { styles } from './styles'
-import Title from '../../components/atoms/title/index'
+
 import Card from '../../components/molecules/card/index'
 import Numbers from '../../components/atoms/numbers/index'
+import Title from '../../components/atoms/title/index'
 import { components } from '../../utils/constants/components'
+import { styles } from './styles'
 import { theme } from '../../utils/constants/theme'
-
 
 const GameStart = ({onStartGame}) => {
     const [number, setNumber] = useState('');
@@ -15,7 +15,7 @@ const GameStart = ({onStartGame}) => {
     const [startGame, setStartGame] = useState(false);
 
     const handleOnChange = (inputNumber) => {
-        console.warn(inputNumber)
+        /*console.warn(inputNumber)*/
         setNumber(inputNumber.replace(/[^0-9]/g, ''));
       }
     
@@ -37,7 +37,7 @@ const GameStart = ({onStartGame}) => {
     
       const confirmedOuput = confirmed ? (
       <View style={styles.confirmedContainer}>
-        <Text style={styles.confirmedtext}>El número elegido es:</Text>
+        <Text style={styles.confirmedtext}>Edad ingresada es:</Text>
         <Numbers number={selectedNumber} />
         <Button title="Empezar juego" onPress={() => handleStartGame()} color="#52528C"/>
       </View>
@@ -45,9 +45,10 @@ const GameStart = ({onStartGame}) => {
 
     return (
         <View style={styles.container}>
-            <Title text="Comienza el juego" />
+            <Title text=" " /* Comienza el juego *//>  
             <Card 
-            title="Elija un número"
+            
+            title="Ingresa tú edad"  
             type={components.card.LIGHT}
             color={theme.primaryColor}
             handleOnChange={handleOnChange} 
