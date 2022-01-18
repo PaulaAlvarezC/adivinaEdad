@@ -26,15 +26,16 @@ const GameScreen = (props) => {
                 { text: 'OK, no', style: 'Cancelar' }
             ])
         }
-        /*
+        
         if(direction === 'lower') {
-            //currentHigh.current = currentGuess;
+            currentHigh.current = currentGuess + 1;
+            currentLow.current = currentGuess - 1;
             console.warn("max: "+currentHigh.current+ " min: "+currentLow.current+ " current: "+currentGuess);
         } else {
             //currentLow.current = currentGuess; 
             console.warn("max: "+currentHigh.current+ " min: "+currentLow.current+ " current: "+currentGuess);
         }
-        */
+        
          
          
         const nextNumber = generateRandomNumber(currentLow.current, currentHigh.current, currentGuess); 
